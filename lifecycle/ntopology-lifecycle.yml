@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.ntop.com/Product-Documentation/ntop/_getting_started
+versioning:
+  scheme: product-release
+  current: '5.51'
+  docs: https://docs.ntop.com/Product-Documentation/ntop/_getting_started/upgrading.md
+  notes: >-
+    nTop is a versioned desktop / computational-design product (release 5.51
+    observed on the documentation home). Releases are shipped as product
+    versions with release notes; the nTop Core developer library is versioned
+    alongside the product.
+licensing:
+  docs: https://docs.ntop.com/Product-Documentation/ntop/_getting_started/licensing.md
+  model: commercial-seat-license
+status_page: null
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+deprecated_operations: []

@@ -1,8 +1,29 @@
 aid: ntopology
 name: Ntopology
-description: Ntopology is a company surfaced as a portfolio company of canaan-partners, dcvc and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  nTop (formerly nTopology) is a computational design software platform for
+  engineering teams building complex, high-performance products. Its parametric,
+  field-driven modeling engine combines geometry, simulation data, and
+  manufacturing constraints so engineers can move from requirements to
+  production-ready designs in a fraction of the traditional time. nTop is used
+  across aerospace and defense, automotive, medical, and industrial energy
+  sectors for lightweighting, lattice and implicit modeling, thermal and
+  structural optimization, and additive manufacturing. nTop also ships nTop
+  Core, a first-party developer library (C++, .NET, and Python) for working with
+  implicit bodies exported from nTop. The company is headquartered in New York
+  City and is backed by venture investors including Canaan Partners and DCVC.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ntop.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/ntopology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +34,52 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Engineering
+- Computational Design
+- Generative Design
+- CAD
+- Simulation
+- Additive Manufacturing
+- Manufacturing Software
+- Aerospace
 apis: []
+common:
+- type: Website
+  url: https://www.ntop.com/
+- type: Documentation
+  url: https://docs.ntop.com/
+- type: GettingStarted
+  url: https://docs.ntop.com/Product-Documentation/ntop/_getting_started.md
+- type: APIReference
+  url: https://docs.ntop.com/Product-Documentation/ntop-core/readme.md
+- type: Blog
+  url: https://www.ntop.com/resources/
+- type: Support
+  url: https://support.ntop.com/hc/en-us
+- type: Login
+  url: https://app.ntop.com/login
+- type: GitHubOrganization
+  url: https://github.com/nTopology
+- type: LLMsTxt
+  url: llms/ntopology-llms.txt
+- type: Packages
+  url: packages/ntopology-packages.yml
+- type: SDKs
+  url: packages/ntopology-packages.yml
+- type: Lifecycle
+  url: lifecycle/ntopology-lifecycle.yml
+- type: DomainSecurity
+  url: security/ntopology-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

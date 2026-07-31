@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.ntop.com/Product-Documentation/ntop-core/readme.md
+notes: >-
+  nTop Core is nTop's first-party developer library for working with implicit
+  bodies exported from nTop (.implicit files). It ships as a native C library
+  with first-party bindings/examples for C++, .NET, and Python. It is
+  vendor-distributed with the nTop product / provided to customers rather than
+  published to a public package registry, so no npm / PyPI / NuGet / Maven /
+  crates.io listing exists (PyPI ntop / ntopcore / ntop-core all 404; NuGet
+  query returns no first-party package as of this probe).
+packages:
+- language: python
+  registry: vendor
+  name: nTop Core (Python)
+  url: https://docs.ntop.com/Product-Documentation/ntop-core/examples/python.md
+  install: bundled with nTop Core library; Python 3.11 ctypes bindings to the native library
+  official: true
+- language: dotnet
+  registry: vendor
+  name: nTop Core (.NET)
+  url: https://docs.ntop.com/Product-Documentation/ntop-core/examples/dotnet.md
+  install: bundled with nTop Core library; .NET interop bindings
+  official: true
+- language: cpp
+  registry: vendor
+  name: nTop Core (C++)
+  url: https://docs.ntop.com/Product-Documentation/ntop-core/examples/cpp.md
+  install: link against the native nTop Core library
+  official: true
