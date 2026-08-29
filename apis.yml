@@ -12,6 +12,17 @@ description: >-
   Core, a first-party developer library (C++, .NET, and Python) for working with
   implicit bodies exported from nTop. The company is headquartered in New York
   City and is backed by venture investors including Canaan Partners and DCVC.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
